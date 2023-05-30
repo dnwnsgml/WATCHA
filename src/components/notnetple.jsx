@@ -1,6 +1,6 @@
 import React from "react";
 
-function New() {
+function Top() {
     return (
         <>
             <div className="title">
@@ -10,8 +10,8 @@ function New() {
                     </div>
                     <div className="sub_ttl">
                         <p>오늘 업데이트</p>
-                        <h1>NEW</h1>
-                        <h3>새로운 에피소드</h3>
+                        <h1>N플엔 없어요</h1>
+                        <h3>멀리서 찾지 마세요. 당신이 찾는 콘텐츠, 왓챠엔 있습니다!</h3>
                     </div>
                 </div>
             </div>
@@ -19,4 +19,4 @@ function New() {
     )
 }
 
-export default New;
+export default Top;

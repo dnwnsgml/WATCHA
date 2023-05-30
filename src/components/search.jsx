@@ -1,6 +1,6 @@
 import React from "react";
 
-function New() {
+function Search() {
     return (
         <>
             <div className="title">
@@ -10,8 +10,7 @@ function New() {
                     </div>
                     <div className="sub_ttl">
                         <p>오늘 업데이트</p>
-                        <h1>NEW</h1>
-                        <h3>새로운 에피소드</h3>
+                        <h1>찾기</h1>
                     </div>
                 </div>
             </div>
@@ -19,4 +18,4 @@ function New() {
     )
 }
 
-export default New;
+export default Search;
