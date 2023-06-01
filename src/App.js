@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import { Link, Route } from "react-router-dom";
-import Home from './components/home';
-import New from './components/new';
-import Top from './components/top';
-import Notnetple from './components/notnetple';
-import Webtoon from './components/webtoon';
-import Movie from './components/movie';
-import Search from './components/search';
+import Home from './main/home';
+import New from './new/new';
+import Top from './top/top';
+import Notnetple from './notnetple/notnetple';
+import Webtoon from './webtoon/webtoon';
+import Movie from './movie/movie';
+import Search from './search/search';
 
 function App() {
   return (
@@ -32,32 +32,32 @@ function App() {
                 </Link>
               </li>
               <li>
-                <Link to="/components/new">
+                <Link to="/new/new">
                   NEW
                 </Link>
               </li>
               <li>
-                <Link to="/components/top">
+                <Link to="/top/top">
                   왓챠 최고 인기작
                 </Link>
               </li>
               <li>
-                <Link to="/components/notnetple">
+                <Link to="/notnetple/notnetple">
                   N플엔 없어요
                 </Link>
               </li>
               <li>
-                <Link to="/components/webtoon">
+                <Link to="/webtoon/webtoon">
                   웹툰
                 </Link>
               </li>
               <li>
-                <Link to="/components/movie">
+                <Link to="/movie/movie">
                   왓챠 개봉관
                 </Link>
               </li>
               <li>
-                <Link to="/components/search">
+                <Link to="/search/search">
                   찾기
                 </Link>
               </li>
@@ -67,12 +67,12 @@ function App() {
       </div>
       <div>
         <Route path="/" exact={true} component={Home}></Route>
-        <Route path="/components/new" component={New}></Route>
-        <Route path="/components/top" component={Top}></Route>
-        <Route path="/components/notnetple" component={Notnetple}></Route>
-        <Route path="/components/webtoon" component={Webtoon}></Route>
-        <Route path="/components/movie" component={Movie}></Route>
-        <Route path="/components/search" component={Search}></Route>
+        <Route path="/new/new" component={New}></Route>
+        <Route path="/top/top" component={Top}></Route>
+        <Route path="/notnetple/notnetple" component={Notnetple}></Route>
+        <Route path="/webtoon/webtoon" component={Webtoon}></Route>
+        <Route path="/movie/movie" component={Movie}></Route>
+        <Route path="/search/search" component={Search}></Route>
       </div>
       <div className='footer'>
         <div className='footer_in'>
