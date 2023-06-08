@@ -1,11 +1,47 @@
 import React, { createContext, useReducer, useRef, useContext } from "react";
 
 const initItems = [
+    // --------------new-----------------
     {
         id: 1,
         src: "https://an2-img.amz.wtchn.net/image/v2/ZkNGBqYZLj8giQn-ibmWAg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5ETXllRFkwTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk9ERXhNakl4TlRRMU1qVTRNalF3TkRVaWZRLkpkVGJmbkRubFAxS2ZoQkwxTXVhU0xSOU1sNi1rc1lNSzc5Uk9pNUo3SVU",
         genre: "애니메이션",
-        scope: "평균 ★4.7",
+        scope: "평균 ★ 4.7",
+        new: true
+    },
+    {
+        id: 2,
+        src: "https://an2-img.amz.wtchn.net/image/v2/ZkNGBqYZLj8giQn-ibmWAg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5ETXllRFkwTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk9ERXhNakl4TlRRMU1qVTRNalF3TkRVaWZRLkpkVGJmbkRubFAxS2ZoQkwxTXVhU0xSOU1sNi1rc1lNSzc5Uk9pNUo3SVU",
+        genre: "애니메이션",
+        scope: "평균 ★ 4.7",
+        new: true
+    },
+    {
+        id: 3,
+        src: "https://an2-img.amz.wtchn.net/image/v2/ZkNGBqYZLj8giQn-ibmWAg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5ETXllRFkwTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk9ERXhNakl4TlRRMU1qVTRNalF3TkRVaWZRLkpkVGJmbkRubFAxS2ZoQkwxTXVhU0xSOU1sNi1rc1lNSzc5Uk9pNUo3SVU",
+        genre: "애니메이션",
+        scope: "평균 ★ 4.7",
+        new: true
+    },
+    {
+        id: 4,
+        src: "https://an2-img.amz.wtchn.net/image/v2/ZkNGBqYZLj8giQn-ibmWAg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5ETXllRFkwTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk9ERXhNakl4TlRRMU1qVTRNalF3TkRVaWZRLkpkVGJmbkRubFAxS2ZoQkwxTXVhU0xSOU1sNi1rc1lNSzc5Uk9pNUo3SVU",
+        genre: "애니메이션",
+        scope: "평균 ★ 4.7",
+        new: true
+    },
+    {
+        id: 5,
+        src: "https://an2-img.amz.wtchn.net/image/v2/ZkNGBqYZLj8giQn-ibmWAg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5ETXllRFkwTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk9ERXhNakl4TlRRMU1qVTRNalF3TkRVaWZRLkpkVGJmbkRubFAxS2ZoQkwxTXVhU0xSOU1sNi1rc1lNSzc5Uk9pNUo3SVU",
+        genre: "애니메이션",
+        scope: "평균 ★ 4.7",
+        new: true
+    },
+    {
+        id: 6,
+        src: "https://an2-img.amz.wtchn.net/image/v2/ZkNGBqYZLj8giQn-ibmWAg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5ETXllRFkwTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk9ERXhNakl4TlRRMU1qVTRNalF3TkRVaWZRLkpkVGJmbkRubFAxS2ZoQkwxTXVhU0xSOU1sNi1rc1lNSzc5Uk9pNUo3SVU",
+        genre: "애니메이션",
+        scope: "평균 ★ 4.7",
         new: true
     }
 ]
