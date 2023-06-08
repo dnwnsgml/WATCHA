@@ -30,7 +30,7 @@ function Main_slide() {
                     <Carousel.Item>
                         <div>
                             <img
-                                src="https://an2-img.amz.wtchn.net/image/v2/DC4wlwS4XQD-Q_IQoZda8Q.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1KbklsMHNJbkFpT2lJdmRqSXZjM1J2Y21VdmFXMWhaMlV2TVRZNE5Ea3dNakF3TnpBeU16azBNVGN6TkNJc0luRWlPamd3ZlEuSVhrYmtNU0R6VG1aeEhuREt4XzNCTkl4NGJnOVJsaUZOd0stbTQ4T04tdw"
+                                src="https://an2-img.amz.wtchn.net/image/v2/-aezqWTKxae77gbpc0W8FQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1KbklsMHNJbkFpT2lJdmRqSXZjM1J2Y21VdmFXMWhaMlV2TVRZNE5UVXlNakkwTVRVek5qYzVNemc1T0NJc0luRWlPamd3ZlEuWVNXUkJNa2VlZWFZdFNaaEJSOFVGaHFiUXNnbHhxZXpYYmNjUlNZcDRDSQ"
                                 alt="Third slide"
                             />
                         </div>

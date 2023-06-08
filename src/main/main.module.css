@@ -72,7 +72,7 @@
 .new_movie {
     margin: 0 auto;
     width: 1400px;
-    height: 300px;
+    height: 400px;
 }
 
 .new_movie h2 {
@@ -106,6 +106,7 @@
 }
 
 .new_con p {
+    padding-top: 5px;
     margin-bottom: 0;
     color: #fff;
 }
